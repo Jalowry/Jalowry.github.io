@@ -27,11 +27,13 @@ h2	{
 	font-weight: 500;
 	font-size: 36px;
 	text-transform: uppercase;
+	color: #222F42;
 }
 
 h3 {
 	font-size: 26px;
-	font-weight: 400;
+	font-weight: 600;
+	color: #E4AE57;
 }
 
 p {
@@ -41,6 +43,7 @@ p {
 
 h2 + h3 {
 	padding-top: 8px;
+	padding-bottom: 20px;
 }
 
 a {
@@ -52,9 +55,15 @@ a:hover {
 	color: white;
 }
 
+.secondary_menu_item h3 {
+	color: #222F42;
+	vertical-align: middle;
+
+}
+
 .button {
 	display: block;
-	width: 100px;
+	width: 250px;
 	text-align: center;
 	background: #E4AE57;
 	border: 1px solid #E4AE57;
@@ -106,6 +115,7 @@ img {
 	padding-right: 16px;
 	min-height: 20px;
 }
+
 
 .two-columns .column {
 	width: 50%;
@@ -200,7 +210,10 @@ hr {
 	width: 100%;
 	padding-top: 64px;
 	padding-bottom: 64px;
+	display: inline-block;
+	vertical-align: middle;	
 }
+
 
 h2.image_bleed {
 	vertical-align: middle;
@@ -231,14 +244,40 @@ footer a {
 	display: block;
 }
 
+a #footer_logo {
+	display: block;
+	width: 100%;
+	max-width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 30px;
+}
+
+#legal {
+	text-align: center;
+
+}
+
 #legal a {
 	display: inline-block;
 	padding-left: 10px;
 	padding-right: 10px;
-	text-align: center;
+	padding-top: 60px;
 }
 
 #legal a:first-child {
+	padding-left: 0px;
+}
+
+#quick_links a{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 25px;
+	font-size: 24px;
+}
+
+#quick_links a:first-child {
 	padding-left: 0px;
 }
 
